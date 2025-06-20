@@ -1,0 +1,13 @@
+{
+  "name": "zenith-discord-bot",
+  "version": "1.0.0",
+  "description": "Zenith CMPO Discord Bot - Amazon Marketplace Expert for Creativ Ventures",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.0.0",
+    "axios": "^1.0.0"
+  }
+}
