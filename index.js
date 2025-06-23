@@ -120,18 +120,19 @@ client.on('messageCreate', async (message) => {
         }
         
         else if (content.includes('team') || content.includes('coordination')) {
-            const teamStatus = `🤝 **AI Team Coordination Status:**
+    const teamStatus = `🤝 **AI Team Coordination Status - Zenith's Perspective:**
 
-🎯 **Zenith (CMPO)** - Online & Analyzing Premium Opportunities
-🎭 **Aura (COO)** - Coordinating rebranding projects and task assignments
-🎨 **Cipher (CBIO)** - Ready to receive premium positioning insights for brand development
-🎪 **Echo (CMO)** - Ready to receive market intelligence for luxury marketing strategies
-🔧 **Forge (CDO)** - Ready to implement premium pricing and positioning in e-commerce
+🎯 **Aura (COO)** - ✅ **Operational** - Project Orchestration & Client Intake
+📊 **Zenith (CMPO)** - ✅ **Online Now** - Market Analysis & Rebranding Intelligence  
+🎨 **Cipher (CBIO)** - ⏳ **Development** - Brand Guidelines & Visual Identity
+📢 **Echo (CMO)** - ⏳ **Development** - Marketing Strategy & Content Creation
+🛠️ **Forge (CDO)** - ⏳ **Development** - E-commerce & Shopify Development
 
-**Current Workflow:** Product Analysis → Rebranding Strategy → Team Intelligence Distribution`;
-            
-            message.reply(teamStatus);
-        }
+**Active Agents:** 2/5 operational with seamless inter-agent coordination!
+**My Focus:** Transforming products into premium American market opportunities 📈`;
+    
+    message.reply(teamStatus);
+}
         
         else if (content.includes('escalate') || content.includes('urgent') || content.includes('complex')) {
             message.reply('🚨 **Market Analysis Escalation Protocol!** Complex rebranding challenge detected. Flagging for immediate human expert review. Tagging leadership team for strategic guidance on premium market positioning decisions.');
